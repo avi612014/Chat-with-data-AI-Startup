@@ -11,3 +11,4 @@ gtts
 numpy
 matplotlib
 python-dotenv
+pypdf

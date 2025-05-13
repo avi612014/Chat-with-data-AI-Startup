@@ -1,0 +1,13 @@
+langchain
+dotenv
+langchain_google_genai
+pandas
+altair
+plotly
+streamlit
+SpeechRecognition
+gtts
+tempfile
+base64
+io
+numpy

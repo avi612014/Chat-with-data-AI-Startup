@@ -13,3 +13,4 @@ matplotlib
 python-dotenv
 pypdf
 faiss-cpu
+pyaudio

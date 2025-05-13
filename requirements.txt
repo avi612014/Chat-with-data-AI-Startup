@@ -13,4 +13,3 @@ matplotlib
 python-dotenv
 pypdf
 faiss-cpu
-faiss-gpu

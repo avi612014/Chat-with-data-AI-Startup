@@ -304,7 +304,7 @@ def pdf_agent():
         st.info("Please upload a PDF file to get started")
 
 def main():
-    st.title("AI Agent with LangChain")     
+    st.title("Intelligent Document Analysis & Insights Assistant")     
 
     st.sidebar.title("Choose an Agent")
     page = st.sidebar.radio("Select a page", ["CSV Agent", "PDF Agent"])

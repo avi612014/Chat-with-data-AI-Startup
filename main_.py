@@ -41,7 +41,13 @@ def autoplay_audio(audio_bytes):
 
 def speech_to_text():
     recognizer = sr.Recognizer()
-    with sr.Microphone() as source:
+    try:
+        mic = sr.Microphone()
+    except Exception as e:
+        st.warning("Microphone not available. PyAudio is likely missing.")
+        return None
+
+    with mic as source:
         st.write("Listening...")
         audio = recognizer.listen(source)
         try:

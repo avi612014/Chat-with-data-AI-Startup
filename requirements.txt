@@ -9,4 +9,5 @@ streamlit
 SpeechRecognition
 gtts
 numpy
+matplotlib
 python-dotenv

@@ -20,3 +20,4 @@ sqlalchemy==2.0.27
 docx2txt==0.8
 python-magic==0.4.27
 gunicorn==21.2.0 
+openpyxl
